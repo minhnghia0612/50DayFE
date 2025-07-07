@@ -1,1 +1,2 @@
-# 50DayF# create react : npm crate vite@latest
+# 50DayFE
+create react : npm crate vite@latest
