@@ -1,0 +1,16 @@
+.process{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #e0e0e0;
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    color:#999;
+    border: 3px solid #e0e0e0;
+    border-radius: 50%;
+    transition: 0.7s ease-in;
+}
+.process.active{
+    border-color: #3498db;
+}
