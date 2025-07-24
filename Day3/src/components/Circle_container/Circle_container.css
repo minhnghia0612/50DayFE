@@ -1,0 +1,39 @@
+.circle-container{
+    position: fixed;
+    top: -100px;
+    left: -100px;
+}
+.circle{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: #FF7979;
+    border-radius: 50%;
+    transition: transform 0.5s linear;
+}
+.container.rotate .circle{
+    transform: rotate(-70deg);
+}
+button{
+    color: #fff;
+    height: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    border: none;
+}
+.circle button.icon_af{
+    left: 60%;
+}
+.circle button.icon_bf{
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+.icon{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+

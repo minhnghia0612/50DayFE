@@ -1,0 +1,35 @@
+nav {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    z-index: 100;
+}
+nav ul{
+    padding-left: 30px;
+    list-style: none;
+}
+nav ul.navBar li{
+    transition-delay: 0.3s;
+    transform: translateX(0);
+} 
+nav ul li {
+    color: #ffffff;
+    margin: 40px 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    transition: tranform 0.5s ease-in;
+    transform: translateX(-100%);
+}
+nav ul li + li{
+    margin-left: 15px;
+    transform: translateX(-150%);
+}
+nav ul li + li + li{
+    margin-left: 30px;
+    transform: translateX(-200%);
+}
+.icon{ 
+    font-size: 20px;
+    margin-right: 10px;
+}

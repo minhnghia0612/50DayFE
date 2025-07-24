@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #ffffff;
+    padding: 50px;
+    width: 100vw;
+    min-height: 100vh;
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+}
+.container.rotate{
+    transform: rotate(-20deg);
+}

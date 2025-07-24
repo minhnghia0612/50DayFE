@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search{
+    position: relative;
+    height: 50px;
+}
+.search .input{
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: width 0.5s ease;
+}
+.search .btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.search.active .btn{
+    transform: translateX(200px);
+}
+.search.active .input{
+    width: 200px;
+}

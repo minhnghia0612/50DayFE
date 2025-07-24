@@ -6,3 +6,12 @@ create react : npm crate vite@latest
   + CSS có thêm truyền thuộc tính var
   + Xác thực key index, active
   + Thêm thuộc tinnhs disable
+- Day 3:
+  + Để chèn icon cần npm install react-icons --save
+  + Vào page: https://react-icons.github.io/react-icons/
+- Day 4:
+  + Học được translate
+- Day 5:
+  + Học được useffect
+  + setInterval
+  + clearInterval
