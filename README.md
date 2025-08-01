@@ -15,3 +15,6 @@ create react : npm crate vite@latest
   + Học được useffect
   + setInterval
   + clearInterval
+- Day 6:
+  + Học thêm được useref
+  + Thư viện react-intersection-observer

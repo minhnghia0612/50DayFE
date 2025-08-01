@@ -1,0 +1,33 @@
+h1{
+    color: black;
+    margin: 10px;
+}
+p{
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.box{
+    height: 200px;
+    width: 400px;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateX(200%);
+    transition: transform 0.5s ease;
+}
+/* even tức là chọn 2,4,6...
+    odd tức là chọn 1,3,5...  
+    nếu truyền số nguyên n tức là chỉ định luôn  */
+.box:nth-of-type(even){
+    transform: translateX(-200%);
+}
+.box.show{
+    opacity: 1;
+    transform: translateX(0%);
+}
