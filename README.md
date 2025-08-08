@@ -18,3 +18,6 @@ create react : npm crate vite@latest
 - Day 6:
   + Học thêm được useref
   + Thư viện react-intersection-observer
+
+
+Học xong thì cài react-starter-kit để hc typestrip
