@@ -18,6 +18,7 @@ create react : npm crate vite@latest
 - Day 6:
   + Học thêm được useref
   + Thư viện react-intersection-observer
-
+- Day 10:
+  Dùng axios để call api
 
 Học xong thì cài react-starter-kit để hc typestrip
