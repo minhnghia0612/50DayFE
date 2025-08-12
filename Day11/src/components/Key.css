@@ -1,0 +1,23 @@
+.key{
+    display: inline-flex;
+    border: 1px solid #999;
+    background-color: #eee;
+    font-size: 20px;
+    align-items: center;
+    color: #000;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    flex-direction: column;
+}
+.key small{
+    position: absolute;
+    top: -24px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+}
