@@ -1,0 +1,23 @@
+.container{
+    width: 500px;
+}
+h3{
+    text-align: center;
+    margin: 10px 0 20px;
+}
+#textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.tag-item{
+    background-color: #f0932b;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+}
