@@ -1,0 +1,16 @@
+.container-nav{
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    font-size: 50px;
+}
+.count{
+    font-size: 60px;
+}
+.title{
+    font-size: 18px;
+}
