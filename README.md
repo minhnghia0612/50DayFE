@@ -20,5 +20,7 @@ create react : npm crate vite@latest
   + Thư viện react-intersection-observer
 - Day 10:
   Dùng axios để call api
+- Day 16:
+  Css visibility dùng để giữ chỗ 
 
 Học xong thì cài react-starter-kit để hc typestrip
