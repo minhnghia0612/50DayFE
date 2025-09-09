@@ -1,0 +1,10 @@
+.button{
+    position: absolute; 
+}
+.btn-next, .btn-prev{
+    position: absolute;
+    background-color: transparent; /* trong suốt */
+}
+.btn-next{
+    left: 50px;
+}

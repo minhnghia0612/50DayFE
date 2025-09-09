@@ -1,0 +1,38 @@
+.content{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+.image{
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:-15vh;
+    left:-15vw;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    transition: 0.4s ease ;
+}
+.image.active{
+    opacity: 1;
+}
+.btn-next, .btn-prev{
+    position: fixed;
+    top:50%;
+    transform: translateY(-50%);
+    border: 2px solid orange;
+    padding: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-next{
+    right: calc(15vw - 65px);
+}
+.btn-prev{
+    left: calc(15vw - 65px);
+}
