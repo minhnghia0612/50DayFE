@@ -1,0 +1,20 @@
+.block{
+    width: 150px;
+    height: 150px;
+    border: solid 3px black ;
+    background-color: white;
+    margin: 10px;
+    position: relative;
+}
+.fill{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+.block.active{
+    background-color: #333;
+    border: dashed white ;
+}
