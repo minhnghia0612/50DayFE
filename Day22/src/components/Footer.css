@@ -1,0 +1,33 @@
+.footer {
+  width: 775px;
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+button{
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  border: none;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+}
+.right{
+ display: flex;
+ align-items: center;
+}

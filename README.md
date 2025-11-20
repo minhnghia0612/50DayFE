@@ -22,5 +22,12 @@ create react : npm crate vite@latest
   Dùng axios để call api
 - Day 16:
   Css visibility dùng để giữ chỗ 
-
+- Day 22:
+  thư viện react-colorful để tự điều chỉnh màu rgba 
+  -> npm i react-colorful
+  https://www.npmjs.com/package/react-colorful?activeTab=readme
+  thư viện react-color tương tự colorful nhưng advance hơn
+  -> npm i react-color
+- Day 24
+  Chờ loading hay server thì thêm simmmer_effect cho chuyên nghiệp
 Học xong thì cài react-starter-kit để hc typestrip

@@ -1,0 +1,73 @@
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.form.loading .content p,
+.form.loading .info p,
+.form.loading .header, 
+.form.loading .profile img {
+  /* Ẩn nội dung văn bản  */
+  color: transparent !important; 
+  
+  /* Ngăn người dùng bôi đen khi loading */
+  user-select: none;
+  pointer-events: none;
+
+  /* Tạo màu nền gradient xám  */
+  background: #e1e4e8;
+  background-image: linear-gradient(
+    90deg, 
+    #e1e4e8 0px, 
+    #f5f5f5 40px, 
+    #e1e4e8 80px
+  );
+  
+  /* Kích thước background to gấp đôi để có chỗ cho vệt sáng chạy */
+  background-size: 200% 100%; 
+  
+  /* Chạy animation */
+  animation: skeleton-loading 1.5s infinite linear;
+  
+  border-radius: 4px;
+}
+
+/* --- Tinh chỉnh riêng cho từng phần --- */
+
+/* Xử lý phần Header */
+.form.loading .header {
+  /* Giữ chiều cao cố định để không bị xẹp khi ảnh chưa load */
+  min-height: 150px; 
+  display: block;
+}
+.form.loading .header img {
+  opacity: 0; /* Ẩn ảnh thật đi để hiện background skeleton của thẻ cha */
+}
+
+/* Xử lý Avatar */
+.form.loading .profile img {
+  border-radius: 50%; /* Giữ hình tròn */
+  opacity: 1; /* Với thẻ img nhỏ, ta đổ màu trực tiếp lên nó */
+  object-position: -99999px; /* Đẩy ảnh thật ra xa để hiện nền skeleton */
+}
+
+/* Xử lý các dòng chữ (p) */
+.form.loading p {
+  /* Đặt chiều cao tối thiểu để nó ra hình cái thanh ngang */
+  min-height: 1em; 
+  margin-bottom: 8px; 
+  display: inline-block; 
+  width: 100%; 
+}
+
+
+.form.loading .detail {
+  width: 80%;
+}
+.form.loading .info_detail {
+  width: 50%;
+}
