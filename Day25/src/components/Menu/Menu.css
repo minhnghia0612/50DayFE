@@ -1,0 +1,42 @@
+.menu{
+    width: 100%;
+    height: 80px;
+    position: fixed ;
+    top: 0;
+    background-color: black;
+    --menu-text: white;
+    transition: all 0.4s ease-in-out;
+}
+.menu.active {
+    background-color: white ;
+    height: 60px ;
+    --menu-text: black; 
+}
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+}
+.menu-left {
+    padding: 15px 0;
+}
+.menu-left a {
+    color:  var(--menu-text);
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+}
+.menu-left a:hover,.menu-right a:hover {
+    color: red;
+}
+.menu-right a {
+    font-size: 18px;
+    padding: 0 15px;
+    color: var(--menu-text);
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+}
+

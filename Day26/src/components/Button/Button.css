@@ -1,0 +1,25 @@
+.button-up, .button-down{
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    padding: 15px;
+}
+.button-up:hover, .button-down:hover {
+    color: black;
+    cursor: pointer;
+}
+.button-up {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-100%);
+    border-radius: 0px 10px 10px 0px;
+
+}
+.button-down {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateX(-99%);
+    border-radius: 10px 0px 0px 10px;
+}

@@ -1,0 +1,34 @@
+.content-wrapper-hidden {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Đây là cái trục sẽ trượt lên trượt xuống */
+.slider-track {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.slide-item {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button{
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: hwb(300 63% 13%);
+  font-weight: 300;
+  font-size: 15px;
+}
+.toast-0 {
+  background-color: hwb(130 36% 36%);
+  color: red
+}
+.toast-1 {
+  background-color: hwb(261 23% 54%);
+  color: yellow
+}
+.toast-2 {
+  background-color: hwb(43 20% 60%);
+  color: blue
+}
